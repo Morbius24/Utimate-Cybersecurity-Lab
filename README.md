@@ -52,8 +52,9 @@ This repository contains the complete configuration, scripts, and documentation 
 - ISOs: pfSense, Kali Linux, Windows Server 2022, Windows 10
 
 ### Basic Setup (1-2 Hours)
-1. Clone this repository
-2. Follow the setup guides in `/docs/setup-guides/` in order:
+
+## Follow the setup guides in `/docs/setup-guides/` in order:
+
    - [01-pfsense-setup.md](docs/setup-guides/01-pfsense-setup.md)
    - [02-kali-setup.md](docs/setup-guides/02-kali-setup.md)
    - [03-windows-server-setup.md](docs/setup-guides/03-windows-server-setup.md)
@@ -80,15 +81,3 @@ This repository contains the complete configuration, scripts, and documentation 
 - [ ] Execute lateral movement exercises
 - [ ] Achieve domain dominance
 
-## 🛠️ Automation Scripts
-
-### Windows PowerShell Scripts
-```powershell
-# Create Organizational Units
-.\scripts\windows\Create-OUs.ps1
-
-# Bulk create users from CSV
-.\scripts\windows\Create-ADUsers.ps1 -CSVPath .\scripts\windows\Bulk-User-Creation.csv
-
-# Enable WinRM for remote management
-.\scripts\windows\Enable-WinRM.ps1

@@ -10,7 +10,7 @@
 
 This repository contains the complete configuration, scripts, and documentation for my enterprise-grade cybersecurity homelab, built following Gerrard O'Brien's "Ultimate Cybersecurity Lab" course on YouTube. This lab simulates a real-world corporate network environment for practicing penetration testing, red teaming, and defensive security techniques.
 
-![Network Diagram](docs/architecture/network-diagram.png)
+![Network Diagram] [(docs/architecture/network-diagram.png)]
 
 ## 🏗️ Lab Architecture
 
